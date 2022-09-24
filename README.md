@@ -6,7 +6,7 @@ A MacOS menubar app for [devmarks](https://devmarks.io). Will show the current n
 
 `rumps` is used for creating the menubar app.
 
-`poetry run python devmarks_menubar/main.py` will start the app, but alerts and windows will open behind every other app which is super annoying (once built with `py2app` this doesn't happen).
+`poetry run devmarks` (or `poetry run python devmarks_menubar/main.py`) will start the app for troubleshooting, but alerts and windows will open behind every other app which is super annoying (once built with `py2app` this doesn't happen).
 
 # How to build the app
 

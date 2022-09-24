@@ -4,9 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["adamghill <adamghill@yahoo.com>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.scripts]
 devmarks = "devmarks_menubar.main:cli"
+
+[tool.poetry.urls]
+"Funding" = "https://github.com/sponsors/adamghill"
 
 [tool.poetry.dependencies]
 python = "3.9.13"
