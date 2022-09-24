@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "devmarks-menubar"
+version = "0.1.0"
+description = ""
+authors = ["adamghill <adamghill@yahoo.com>"]
+license = "MIT"
+
+[tool.poetry.scripts]
+devmarks = "devmarks_menubar.main:cli"
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+rumps = "^0.3.0"
+httpx = "^0.23.0"
+py2app = "^0.28.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+black = "^22.8.0"
+isort = "^5.10.1"
+coverage = "^6.4.4"
+mypy = "^0.971"
+poethepoet = "^0.16.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
